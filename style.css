@@ -70,9 +70,13 @@ button:hover {
     justify-content: center;
     align-items: center;
     height: 2rem;
-   
+    
     font-size: 1.2rem;
     font-weight: 600;
+}
+
+.navbar-list a {
+    color: white;
 }
 
 .portada-container{
@@ -193,6 +197,7 @@ button:hover {
     align-items: center;
     justify-content: center;
     background-color: black;
+    padding:30px 0 ;
 }
 
 .testimonios-conteiner{
@@ -222,8 +227,8 @@ button:hover {
 
 .img{
     
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
 }
 
 .img img{
@@ -233,6 +238,54 @@ button:hover {
 }
 
 
+/***************************************/
+.footer{
+    background-color:#fd611a;
+    display: grid;
+    
+    grid-template-columns:1fr 1fr 1fr ;
+    padding: 40px 0;
+    
 
+}
 
+.elemento{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right:2px solid white;
+}
+
+.elemento:nth-child(1){
+    display: flex;
+    gap: 10px;
+}
+.elemento:nth-child(2){
+    display: flex;
+    gap: 20px;
+    
+}
+.elemento:nth-child(3){
+    display: flex;
+    gap: 20px;
+    
+}
+.boton-arrepentimiento{
+    text-decoration: underline;
+}
+
+.footer{
+    width: 100%;
+}
+.footer-social i{
+    height:30px ;
+    width:30px ;
+
+    padding: 6px;
+    background-color: black;
+    
+    border: 1px solid black;
+    border-radius: 100%;
+}
 
